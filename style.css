@@ -1,0 +1,721 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EAEDED;
+}
+
+/* HEADER */
+.navbar{
+    height: 67px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.navlogo{
+    height: 45px;
+    width: 190px;
+    border: 1.2px solid transparent;
+    padding:5px;
+}
+.logo{
+    height: 45px;
+    width: 100%;
+    background-image: url("Flipkart_Logo.svg");
+    background-size: cover;
+}
+.searchbar{
+    height: 40px;
+    width: 700px;
+    border: 1.2px solid transparent;
+    margin: 10px;
+    display: flex;
+}
+#searchbar{
+    height: 35px;
+    width:100%;
+    margin-left: 30px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: rgb(217, 229, 243);
+    border: none;
+}
+.magnify{
+    height: 35px;
+    width: 40px;
+    border: 1.2px solid transparent;
+    margin-left: 20px;
+}
+.home{
+    height: 140px;
+    width: 97%;
+    border: 1.2px solid transparent;
+    background-color: white;
+    margin: 15px;
+}
+.homebox1{
+    height: 120px;
+    width: 70%;
+    border: 1.2px solid transparent;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 200px;
+    justify-content: space-evenly;
+}
+.homebox:hover{
+    background-color: rgb(217, 229, 243);
+    border-radius: 10px;
+}
+.homebox{
+    height: 115px;
+    width: 100px;
+    border: 1.2px solid transparent;
+
+}
+.home1{
+    height: 64px;
+    width: 64px;
+    border: 1.2px solid transparent;
+    margin: 16px;
+}
+#home1{
+    background-image: url("Home1.webp");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+#home2{
+     background-image: url("home2.webp");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+#home3{
+     background-image: url("home3.webp");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+#home4{
+     background-image: url("home4.png");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+#home5{
+     background-image: url("home5.webp");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+#home6{
+     background-image: url("home6.jpg");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+#home7{
+     background-image: url("home7.png");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+#home8{
+     background-image: url("home8.webp");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+#home9{
+     background-image: url("home9.webp");
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+}
+#heading{
+    font-size: 22px;
+    color: #1f1f1f;
+    font-weight: 700;
+    padding: 15px;
+}
+#para{
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+    font-weight: 600;
+}
+.main{
+    height: 245px;
+    width: 97%;
+    background-color: white;
+    margin: 20px;
+}
+#main{
+    background-image: url("]main.webp");
+    background-size:cover ;
+    height: 245px;
+}
+.bigbox{
+    height: 330px;
+    width: 80%;
+    background-color: white;
+    margin-left: 20px;
+}
+.box{
+    height: 340px;
+    width: 97%;
+    border: 1.2px solid transparent;
+    margin: 10px;
+    background-color: white;
+    margin-left: 20px;
+}
+.toy1{
+    height: 152px;
+    width: 100%;
+    background-image:url("toy1.jpg");
+    background-size: cover;
+}
+.toy1:hover{
+    height: 154px;
+    width: 103%;
+}
+.toy2{
+    height: 152px;
+    width: 100%;
+    background-image:url("toy2.jpg");
+    background-size: cover;
+}
+.toy2:hover{
+    height: 154px;
+    width: 103%;
+}
+.toy3{
+    height: 152px;
+    width: 100%;
+    background-image:url("toy3.png");
+    background-size: cover;
+}
+.toy3:hover{
+    height: 154px;
+    width: 103%;
+}
+.toy4{
+    height: 152px;
+    width: 100%;
+    background-image:url("toy4.webp");
+    background-size: cover;
+}
+.toy4:hover{
+    height: 154px;
+    width: 103%;
+}
+.toy5{
+    height: 152px;
+    width: 100%;
+    background-image:url("toy5.jpg");
+    background-size: cover;
+}
+.toy5:hover{
+    height: 154px;
+    width: 103%;
+}
+.toy6{
+    height: 152px;
+    width: 100%;
+    background-image:url("toy6.jpg");
+    background-size: cover;
+}
+.toy6:hover{
+    height: 154px;
+    width: 103%;
+}
+.sport1{
+     height: 152px;
+    width: 100%;
+    background-image:url("sport1.jpg");
+    background-size: cover;
+}
+.sport1:hover{
+    height: 154px;
+    width: 103%;
+}
+.sport2{
+     height: 152px;
+    width: 100%;
+    background-image:url("sport2.webp");
+    background-size: cover;
+}
+.sport2:hover{
+    height: 154px;
+    width: 103%;
+}
+.sport3{
+     height: 152px;
+    width: 100%;
+    background-image:url("sport3.jpg");
+    background-size: cover;
+}
+.sport3:hover{
+    height: 154px;
+    width: 103%;
+}
+.sport4{
+     height: 152px;
+    width: 100%;
+    background-image:url("sport4.jpg");
+    background-size: cover;
+}
+.sport4:hover{
+    height: 154px;
+    width: 103%;
+}
+.sport5{
+     height: 152px;
+    width: 100%;
+    background-image:url("sport5.jpg");
+    background-size: cover;
+}
+.sport5:hover{
+    height: 154px;
+    width: 103%;
+}
+.sport6{
+     height: 152px;
+    width: 100%;
+    background-image:url("sport6.webp");
+    background-size: cover; 
+}
+.sport6:hover{
+    height: 154px;
+    width: 103%;
+}
+.box-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+#heading{
+    margin: 10px;
+}
+.smallbox{
+    height: 238px;
+    width: 220px;
+    border: 1.2px solid transparent;
+    margin-top: 20px;
+}
+.smallbox1{
+    height: 152px;
+    width: 152px;
+    border: 1.2px solid transparent;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+#smallbox1{
+    background-image: url("smallbox1.webp");
+    background-size: cover;
+    height: 152px;
+    width: 152px;
+}
+#smallbox1:hover{
+    height: 154px;
+    width: 103%;
+}
+#smallbox2{
+    background-image: url("smallbox2.webp");
+    background-size: cover;
+    height: 152px;
+    width: 152px;
+}
+#smallbox2:hover{
+    height: 154px;
+    width: 103%;
+}
+#smallbox3{
+    background-image: url("smallbox3.jpg");
+    background-size: cover;
+    height: 152px;
+    width: 152px;
+}
+#smallbox3:hover{
+    height: 154px;
+    width: 103%;
+}
+#smallbox4{
+    background-image: url("smallbox4.png");
+    background-size: cover;
+    height: 152px;
+    width: 100%;
+}
+#smallbox4:hover{
+    height: 154px;
+    width: 103%;
+}
+#smallbox5{
+    background-image: url("smallbox5.webp");
+    background-size: cover;
+    height: 152px;
+    width: 152px;
+}
+#smallbox5:hover{
+    height: 154px;
+    width: 103%;
+}
+.sale{
+    font-size: 14px;
+    color: #1f1f1f;
+    margin-left: 24px;
+    margin-top: 10px;
+}
+#sale{
+    font-size: 14px;
+    color: #1f1f1f;
+    font-weight: 700;
+    margin-left: 65px;
+}
+#heading1{
+    font-size: 24px;
+    color: #1f1f1f;
+    font-weight: 700;
+    margin: 15px;
+    text-decoration: none;
+}
+.hding{
+    display: flex;
+}
+.circle{
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    background-color: #2A55E5;
+    margin-top: 16px;
+    margin-left: 190px;
+    text-decoration: none;
+}
+#circle{
+    color: white;
+    margin: 1px;
+    margin-left: 8px;
+    font-size:17px;
+    margin-top: 3px;
+    text-decoration: none;
+}
+.boxx{
+    height: 630px;
+    width: 480px;
+    border: 1.2px solid transparent;
+    background-color: white;
+}
+.boxx-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.smallboxx{
+    height: 270px;
+    width: 220px;
+    border: 1.2px solid rgba(218, 220, 222, 0.776);
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.smallboxx1{
+    height: 180px;
+    width: 180px;
+    border: 1.2px solid transparent;
+    margin: 20px;
+}
+
+.season1{
+    height: 100%;
+    width: 100%;
+    background-image: url("season1.jpg");
+    background-size: cover;
+}
+.season2{
+    height: 180px;
+    width: 100%;
+    background-image: url("season2.webp");
+    background-size: cover;
+}
+.season1:hover, .season2:hover, .season3:hover, .season4:hover{
+    height: 182px;
+    width: 103%;
+}
+.season3{
+    height: 180px;
+    width: 100%;
+    background-image: url("season3.avif");
+    background-size: cover;
+}
+.season4{
+    height: 180px;
+    width: 100%;
+    background-image: url("season4.webp");
+    background-size: cover;
+}
+.kitchen1{
+     height: 180px;
+    width: 100%;
+    background-image: url("kitchen1.webp");
+    background-size: cover;
+}
+.kitchen2{
+     height: 180px;
+    width: 100%;
+    background-image: url("kitchen2.jpg");
+    background-size: cover;
+}
+.kitchen3{
+     height: 180px;
+    width: 100%;
+    background-image: url("kitchen3.webp");
+    background-size: cover;
+}
+.kitchen4{
+     height: 180px;
+    width: 100%;
+    background-image: url("kitchen4.webp");
+    background-size: cover;
+}
+.kitchen1:hover, .kitchen2:hover, .kitchen3:hover, .kitchen4:hover{
+    height: 182px;
+    width: 103%;
+}
+.navratri1{
+    height: 180px;
+    width: 100%;
+    background-image: url("navratri1.webp");
+    background-size: cover;
+}
+
+.navratri2{
+    height: 180px;
+    width: 100%;
+    background-image: url("navratri2.webp");
+    background-size: cover;
+}
+
+.navratri3{
+    height: 180px;
+    width: 100%;
+    background-image: url("navratri3.jpg");
+    background-size: cover;
+
+}
+.navratri4{
+    height: 180px;
+    width: 100%;
+    background-image: url("navratri4.jpg");
+    background-size: cover;
+}
+.navratri1:hover, .navratri2:hover, .navratri3:hover, .navratri4:hover{
+    height: 182px;
+    width: 103%;
+}
+.gadget1{
+    height: 180px;
+    width: 100%;
+    background-image: url("gadget.jpg");
+    background-size: cover;
+}
+.gadget2{
+    height: 180px;
+    width: 100%;
+    background-image: url("gadget2.jpg");
+    background-size: cover;
+}
+.gadget3{
+    height: 180px;
+    width: 100%;
+    background-image: url("gadget3.jpg");
+    background-size: cover;
+}
+.gadget4{
+    height: 180px;
+    width: 100%;
+    background-image: url("gadget4.jpg");
+    background-size: cover;
+}
+.gadget1:hover, .gadget2:hover, .gadget3:hover, .gadget4:hover{
+    height: 182px;
+    width: 103%;
+}
+.skin1{
+    height: 180px;
+    width: 100%;
+    background-image: url("skin1.webp");
+    background-size: cover;
+}
+.skin2{
+    height: 180px;
+    width: 100%;
+    background-image: url("skin2.webp");
+    background-size: cover;
+}
+.skin3{
+    height: 180px;
+    width: 100%;
+    background-image: url("skin3.webp");
+    background-size: cover;
+}
+.skin4{
+    height: 180px;
+    width: 100%;
+    background-image: url("skin4.webp");
+    background-size: cover;
+}
+.skin1:hover, .skin2:hover, .skin3:hover, .skin4:hover{
+    height: 182px;
+    width: 103%;
+}
+.decor1{
+    height: 180px;
+    width: 100%;
+    background-image: url("decor1.webp");
+    background-size: cover;
+}
+.decor2{
+    height: 180px;
+    width: 100%;
+    background-image: url("decor2.jpg");
+    background-size: cover;
+}
+.decor3{
+    height: 180px;
+    width: 100%;
+    background-image: url("decor3.webp");
+    background-size: cover;
+}
+.decor4{
+    height: 180px;
+    width: 100%;
+    background-image: url("decor4.webp");
+    background-size: cover;
+}
+.ssn{
+    font-size: 17px;
+    color: #1f1f1f;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.ssn1{
+    font-size: 17px;
+    color: #108934;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+/* FOOTER */
+.footer{
+    height: 3000px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.footerbox{
+    height: 2650px;
+    width: 97%;
+    border: 1.2px solid transparent;
+    margin: 20px;
+    border: 1.2px solid transparent;
+}
+.story{
+    font-size: 16px;
+    color: #565656;
+    padding:14px;
+    font-weight: 600;
+    margin: 20px;
+}
+#brands{
+    text-decoration: none;
+    color: #565656;
+}
+.for{
+    color: #565656;
+    font-size: 14px;
+    margin-left: 30px;
+}
+#anchor{
+    font-size: 12px;
+    color: #565656;
+    text-decoration: none;
+}
+.flip{
+    font-size:16px;
+    color: #878787;
+    margin-left: 30px;
+    font-weight: 600;
+}
+#commerce{
+    font-size: 14px;
+    color: #878787;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.foot{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(28, 27, 27);
+}
+.footbox-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footboxx1{
+    height: 204px;
+    width: 190px;
+    border: 1.2px solid transparent;
+    margin-top: 40px;
+}
+.footboxx2{
+    height: 204px;
+    width: 190px;
+    border: 1.2px solid transparent;
+     margin-top: 40px;
+}
+.footboxx3{
+    height: 204px;
+    width: 190px;
+    border: 1.2px solid transparent;
+     margin-top: 40px;
+}
+.footboxx4{
+    height: 204px;
+    width: 190px;
+    border: 1.2px solid transparent;
+     margin-top: 40px;
+}
+.footboxx5{
+    height: 204px;
+    width: 290px;
+    border: 1.2px solid transparent;
+     margin-top: 40px;
+}
+.footboxx6{
+    height: 204px;
+    width: 250px;
+    border: 1.2px solid transparent;
+     margin-top: 40px;
+}
+.about{
+    font-size: 12px;
+    color: #878787;
+    font-weight: 500;
+}
+ul{
+    list-style-type:none;
+}
+#list{
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-decoration: none;
+}
+#telo{
+    font-size: 12px;
+    color: #2874F0;
+    text-decoration: none;
+}
+.socialbox{
+    display: flex;
+    justify-content: space-evenly;
+}
